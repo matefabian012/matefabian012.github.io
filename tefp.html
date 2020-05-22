@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Fábián Máté</title>
+        <meta charset="utf-8">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #90DDF9;
+            }
+
+            nav {
+                width: 100%;
+                background-color: #333333;
+            }
+            nav > ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            nav > ul > li {
+                float: left;
+            }
+            nav > ul > li > a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            nav > ul > li > a:hover {
+                background-color: #111111;
+            }
+            nav > ul > li > a.focused { 
+                background-color: #00BB00;
+                color: black;
+            }
+
+            .header {
+                width: 100%;
+                height: 27%;
+                background: url("img/header.png");
+                background-position: center;
+                display: flex;
+                align-items: center;
+                /*justify-content: center;*/
+            }
+            .header > h2 {
+                color: red;
+                margin-left: 13%;
+            }
+            
+            .content {
+                margin: 1%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Fábián Máté: Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="tefp.html" class="focused">Tetőtervező és faszerkezettervező program</a></li>
+                <li><a href="muhely.html">Műhely</a></li>
+                <li><a href="cnc.html">CNC vezérelt gépsorunk</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2>Venta programok</h2>
+            <p>A Venta Software egy három dimenziós programcsomag, mely hagyományos tetőszerkezethez, falszerkezethez, valamint szabadon álló faszerkezet tervezéséhez és gyártmányrajz készítéshez nyújt segítséget ácsoknak és készházépítőknek!</p>
+            <p>Felejtse el a zsinórpad állítását és spóroljon meg rengeteg időt! A megtervezett tetőszerkezetet már a munka megkezdése előtt leszabhatja a műhelyben, vagy a helyszínen! A Venta Software három különböző programot kínál az ácsoktól egészen a készházépítő cégekig!</p>
+            <img src="img/kep3.png">
+            <img src="img/kep4.png">
+            <img src="img/kep5.png">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Fábián Máté</title>
+        <meta charset="utf-8">
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #90DDF9;
+            }
+
+            nav {
+                width: 100%;
+                background-color: #333333;
+            }
+            nav > ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            nav > ul > li {
+                float: left;
+            }
+            nav > ul > li > a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            nav > ul > li > a:hover {
+                background-color: #111111;
+            }
+            nav > ul > li > a.focused { 
+                background-color: #00BB00;
+                color: black;
+            }
+
+            .header {
+                width: 100%;
+                height: 27%;
+                background: url("img/header.png");
+                background-position: center;
+                display: flex;
+                align-items: center;
+                /*justify-content: center;*/
+            }
+            .header > h2 {
+                color: red;
+                margin-left: 13%;
+            }
+            
+            .content {
+                margin: 1%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Fábián Máté: Portfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="tefp.html">Tetőtervező és faszerkezettervező program</a></li>
+                <li><a href="muhely.html">Műhely</a></li>
+                <li><a href="cnc.html" class="focused">CNC vezérelt gépsorunk</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h2>CNC vezérelt gépsorunk</h2>
+            <p>Tetőszerkezetet, vagy bármely faszerkezetet tervezőprogramunk segítségével elkészítjük, majd konvertáljuk egy CNC vezérelt gépre (pl.: Hundegger, Schmidler).</p>
+            <p>Gyártás előnyei:</p>
+            <ul>
+                <li>Milliméterpontos megmunkálás</li>
+                <li>Olyan fakötések alkalmazását teszi lehetővé, mely kézi szabásnál nem, vagy nagyon nehezen elkészíthető</li>
+                <li>A kivitelezési idő lerövidítése</li>
+                <li>Idő és pénzmegtakarítás a megrendelőnek</li>
+                <li>Hulladékok minimalizálása</li>
+                <li>Gyalult faanyag</li>
+                <li>3-Dimenziós látványterv készítése a megrendelő felé</li>
+                <li>A szerkezet legkorszerűbb összeszerelése</li>
+            </ul>
+
+            <img src="img/kep8.png">
+            <img src="img/kep9.png">
+        </div>
+    </body>
+</html>
